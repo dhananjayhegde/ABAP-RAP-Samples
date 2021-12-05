@@ -9,7 +9,7 @@ How to use Late Numbering in ABAP RAP Unmanaged implementation with Purchase Con
 
 SCN blog post - [Late Numbering in Unmanaged RAP BO](https://blogs.sap.com/2021/09/13/rap-unmanaged-bo-late-numbering/)
 
-## 2. [Early Numbering with Semantic Keys - RAP Managed Implementation]()
+## 2. [Early Numbering with Semantic Keys - RAP Managed Implementation](https://blogs.sap.com/2021/11/23/how-to-use-early-numbering-with-semantic-keys-rap-managed-bo/)
 [Jump to source code](https://github.com/dhananjayhegde/ABAP-RAP-Samples/tree/main/RAP-Managed-Early-Numbering-Semantic-Keys).
 
 How to use Early Numbering with Semantic Keys in ABAP RAP Managed implementation. 
