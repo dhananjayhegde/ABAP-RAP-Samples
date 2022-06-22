@@ -13,10 +13,15 @@
 define view entity ZDH_P_TravelStatusVH
   as select from DDCDS_CUSTOMER_DOMAIN_VALUE_T ( p_domain_name : '/DMO/OVERALL_STATUS' )
 {
+
+      @ObjectModel.text.element: ['OverallStatusText']
   key value_low as OverallStatus,
+
+      @Semantics.text: true
       text      as OverallStatusText
 }
 where
   language = $session.system_language
+
 
 ```
