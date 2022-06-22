@@ -99,7 +99,6 @@ define root view entity ZDH_C_TRAVEL_M_00
                             { type: #FOR_ACTION, position: 10, dataAction: 'Copy',        label: 'Copy' },
                             { type: #FOR_ACTION, position: 20, dataAction: 'ChangeDates', label: 'Change Dates' }  ],
           identification: [ { position: 10, label: 'Travel ID [1,...,99999999]' },
-                            { type: #FOR_ACTION, dataAction: 'AddFromPackage', label: 'Add Itinerary from Package' },
                             { type: #FOR_ACTION, dataAction: 'ChangeDates', label: 'Change Dates' } ] }
       @Search.defaultSearchElement: true
       TravelId,
@@ -199,5 +198,4 @@ define root view entity ZDH_C_TRAVEL_M_00
       _Customer,
       _TravelStatus
 }
-
 ```
