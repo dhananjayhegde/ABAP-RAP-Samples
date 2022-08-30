@@ -442,7 +442,7 @@ CLASS lsc_ZDH_R_PURCTR IMPLEMENTATION.
                                                           PurchaseContract  = iv_ctr ) ).
 
       LOOP AT mt_item_buffer ASSIGNING FIELD-SYMBOL(<ls_item_buff>) USING KEY sorted_cid_ref WHERE cid_ref = <ls_header_buff>-cid.
-        cs_mapped-item = VALUE #( BASE cs_mapped-item ( %pid                  = iv_header_pid
+        cs_mapped-item = VALUE #( BASE cs_mapped-item ( %pid                  = <ls_item_buff>-pid
                                                         PurchaseContract      = iv_ctr
                                                         PurchaseContractItem  = <ls_item_buff>-key-PurchaseContractItem ) ).
       ENDLOOP.
