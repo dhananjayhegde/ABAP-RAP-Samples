@@ -1,3 +1,5 @@
+Another new repo on RAP/ABAP you might like - [](https://github.com/dhananjayhegde/abap-rap-samples-new)
+
 # ABAP RESTful Application Programming (RAP) Model Samples
 
 This repository contains code samples used in various blog posts.  Each blog post has its own folder and contains respective source code files.
